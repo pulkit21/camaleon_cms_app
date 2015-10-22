@@ -55,5 +55,5 @@ gem 'camaleon_cms'
 
 
 #################### Camaleon CMS include all gems for plugins and themes #################### 
-require './lib/plugin_routes' 
+require './lib/plugin_routes'
 instance_eval(PluginRoutes.draw_gems)
